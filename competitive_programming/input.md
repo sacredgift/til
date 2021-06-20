@@ -11,5 +11,25 @@ split関数で区切り文字を指定しない場合input().split()、半角ス
 ### 参考
 [AtCoderで始めるPython入門](https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c)
 
+### 標準入力をテストする場合
+```
+import io
+import sys
+
+_INPUT = """\
+2
+1 2 3
+aaa
+"""
+sys.stdin = io.StringIO(_INPUT)
+
+print(int(input()))
+print(list(map(int, input().split())))
+print(list(input()))
+```
+
+### 参考
+[Python と VSCode で競プロ - 標準入力の簡易化とサンプルケース判定の自動化 -](https://qiita.com/ajim/items/4d350710ba70056f5f6f)
+
 ### タグ
 * python
