@@ -10,3 +10,6 @@ split関数で区切り文字を指定しない場合input().split()、半角ス
 
 ### 参考
 [AtCoderで始めるPython入門](https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c)
+
+### タグ
+* python
