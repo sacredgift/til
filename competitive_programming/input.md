@@ -9,7 +9,8 @@ split関数で区切り文字を指定しない場合input().split()、半角ス
 複数行の整数の標準入力をリストに格納したい場合、リスト内包表記で[int(input()) for 変数名 in range(入力行数)]と使用する。  
 
 ### 参考
-[AtCoderで始めるPython入門](https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c)
+[AtCoderで始めるPython入門](https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c)  
+[Python3で競技プログラミングする時に知っておきたいtips（入力編）](https://qiita.com/kyuna/items/8ee8916c2f4e36321a1c)
 
 ### 標準入力をテストする場合
 ```
